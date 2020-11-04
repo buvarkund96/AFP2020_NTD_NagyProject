@@ -30,3 +30,7 @@ Kezdő oldal ->  Bejelentkezés       ->    Termékek (árral)
 
 ## 6. Követelménylista 
 
+|  Követelmény sorszáma | Követelmény megnevezése  | Követelményekről bővebben | 
+|-----------------------|--------------------------|---------------------------|
+|         K001          |Minimalista dizájn        |         5. fejezet        |
+|         K002          |Több szerepkör            |         5. fejezet        |
