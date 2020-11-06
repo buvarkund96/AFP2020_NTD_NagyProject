@@ -28,6 +28,7 @@ Kezdő oldal ->  Bejelentkezés       ->    Termékek (árral)
                 Termékek (ár nélkül)
  
 ## 6. Képernyőtervek
+A képernyő terveket a "kepernyo_terv" mappában lehet megtalálni JPG formátumban. Ezek látványtervek, tájékoztató jellegűek. A kivitelezés eltérhet, igény esetén módosítható. 
 ## 7. Követelménylista 
 
 |  Követelmény sorszáma | Követelmény megnevezése  | Követelményekről bővebben | 
