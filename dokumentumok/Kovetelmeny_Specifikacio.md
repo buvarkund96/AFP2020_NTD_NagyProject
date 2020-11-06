@@ -27,8 +27,8 @@ Kezdő oldal ->  Bejelentkezés       ->    Termékek (árral)
                                           Kosár
                 Termékek (ár nélkül)
  
-
-## 6. Követelménylista 
+## 6. Képernyőtervek
+## 7. Követelménylista 
 
 |  Követelmény sorszáma | Követelmény megnevezése  | Követelményekről bővebben | 
 |-----------------------|--------------------------|---------------------------|
