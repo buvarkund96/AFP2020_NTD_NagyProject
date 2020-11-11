@@ -9,6 +9,7 @@ A megrendelő egy olyan weboldalt szeretne ahonnan a vásárlók utánvételes f
 - Kezdőoldal: Itt termékek jelennek. Ellenőrízve, hogy a látogató be van-e jelentkezve. Amennyiben nincs bejelentkezve a termékek árát nem listázza ki.
 - Impresszum oldal: Itt a cég információi láthatóak. A cég vezető elérhetőségei vannak feltüntetve.
 - Kapcsolat oldal: Ezen az oldalon található, hogy egy esetleges reklamációval, segítség kéréssel kihez kell fordulni.
+- Termékek oldal: Az összes elérhető termék szerepel ezen az oldalon. Ellenőrzésre kerül, hogy a látogató be van-e jelentkezve. Amennyiben nincsen így az árak nem jelennek meg.
 
 ## 6. Követelménylista
 ## 7. Képernyőtervek
