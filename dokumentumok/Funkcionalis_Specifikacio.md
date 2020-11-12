@@ -13,10 +13,6 @@
 	
 ## 4. Jelenlegi üzleti folyamatok modellje
 
-	A megrendelő az üzleteinek online formában való lebonyolítására egy saját weboldalt szeretne, ahol a termékeit szabadon kilistázhatja és eladásra bocsáthatja.
-	Manapság a legtöbb áruház rendelkezik online vásárlói felülettel. A megrendelő szeretné a termék eladási lehetőségeit tovább bővíteni, ezért saját webes áruház létrehozása mellet döntött.
-	A megrendelő jellenleg nem rendelkezik ilyen webáruházzal, tehát egy teljesen új oldalt létrehozása a cél.
-
 ## 5. Igényelt üzleti folyamatok modellje
 A megrendelő egy olyan weboldalt szeretne ahonnan a vásárlók utánvételes fizetéssel tudnának rendelni, de csak akkor, ha regisztrálnak.
 
