@@ -5,13 +5,12 @@
 	Ez garantálja a vásárlóknak a könyebb eligazodást a termékek között, a könyebb és biztonságosabb vásárlást és egy egyszerű lehetőségett biztosít panaszaik, észrevételeik, esetleges kérdéseik feltevéséhez.
 
 ## 2. Jelenlegi helyzet
-## 3. Vágyálom rendszer
-	A project célja egy a megrendelő igényeinek megfelelő, webshop létrehozása. A vásárlók utánvételes fizetéssel rendelhetnek.
-	A vásárlók regisztráció után a kezdőlapon szabadon megtekinthetik a termékek listáját, árral együtt.
-	Egy külön oldalon elhelyezve látható legyen a cég alap információi, elérhetőségei.
-	A megrendelő egy külön oldalt szeretne a reklamációk, észrevételek, segítség kérések összegyűjtésére.
-	Az összes termék listája egy külön oldalon megtalálható legyen, ahol a termékek árai csak bejelentkezés után lehessen látható.
+	Jelenleg a megrendelő nem rendelkezik semmilyen lehetőséggel, hogy a termékeit online is árusítsa. A konkurens cégek majnem mindegyike rendelkezik már saját webshoppal és a megrendelő sem szeretne lemaradni tőlük.
+	Fontosnak tarja ezért egy saját webshop létrehozását, hogy ezzel is a piaci lehetőségeit növelhesse és az eladásra szánt termékeit szabadon megtekinthessék, regisztrációval az árakat is láthassák a vásárlók és vásárolhassanak az oldalon.
+	Szeretné a cég adatait, elérhetőségeit is feltúntettni, valamint reklamáció, segítség kérésre is lehetőséget biztosítani az oldalon.
 
+## 3. Vágyálom rendszer
+	
 ## 4. Jelenlegi üzleti folyamatok modellje
 
 	A megrendelő az üzleteinek online formában való lebonyolítására egy saját weboldalt szeretne, ahol a termékeit szabadon kilistázhatja és eladásra bocsáthatja.
