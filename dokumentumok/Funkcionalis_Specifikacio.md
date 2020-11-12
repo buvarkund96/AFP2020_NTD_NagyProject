@@ -26,7 +26,7 @@ Az admin képes a termékek leírását, árát módosítani. Képes új termék
 - Felhasználói jogkörök:
 A felhasználó képes a termékek összes paraméterét megtekinteni. 
 ### 6.2 Nem funkcionális követelmények
-k4: Desing:
+k4: Design:
 - Felhasználóbarát, jól átlátható szerkezeti felépítés.
 
 k5: Platform:
