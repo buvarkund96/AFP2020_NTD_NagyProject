@@ -1,5 +1,9 @@
 # Funkcionális Specifikáció
 ## 1. Bevezetés
+	A technológia fejlődésével egy új lehetőség nyílik az interneten keresztül való árusításhoz. Az árusítás interneten történő lehetőségeiről senki nem akar lemaradni.
+	Manapaság az emberek méginkább jobban preferálják az online megrendeléseket, ezért az árusító cég nagy bevételt bukhat ha nem rendelkezik webáruházzal.
+	Ez garantálja a vásárlóknak a könyebb eligazodást a termékek között, a könyebb és biztonságosabb vásárlást és egy egyszerű lehetőségett biztosít panaszaik, észrevételeik, esetleges kérdéseik feltevéséhez.
+
 ## 2. Jelenlegi helyzet
 ## 3. Vágyálom rendszer
 	A project célja egy a megrendelő igényeinek megfelelő, webshop létrehozása. A vásárlók utánvételes fizetéssel rendelhetnek.
