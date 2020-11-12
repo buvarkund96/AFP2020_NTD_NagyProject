@@ -39,6 +39,19 @@ k6: Titkosítás:
 ## 7. Képernyőtervek
 A képernyő terveket a "kepernyo_terv" mappában lehet megtalálni JPG formátumban. Ezek látványtervek, tájékoztató jellegűek. A kivitelezés eltérhet, igény esetén módosítható. 
 ## 8. Használati esetek
+Hozzáférések jogultság szerint:
+- sima felhasználó
+- adminisztrátor
+
+Sima felhasználó használati esetei:
+- Regisztráció: A felhasználó képes önmagát beregisztrálni a rendszerbe.
+- Bejelentkezés: Regisztráció után megnyilik a bejelentkezés lehtősége a rendszerbe.
+- Listázás: Képes az összes terméket kilistázni. 
+
+Adminisztrátor felhasználó használati esetei:
+- Bejelentkezés: Az adminisztrátor képes bejelentkezni a rendszerbe.
+- Termékek kezelése: Képes a termékeket módosítani, új terméket felvenni.
+- Listázás: Az admin képes az összes terméket kilistázni.
 ## 9. Forgatókönyvek
 ## 10. Funkció-követelmény megfeleltetés
 ## 11. Fogalomszótár
