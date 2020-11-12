@@ -9,6 +9,10 @@
 	Az összes termék listája egy külön oldalon megtalálható legyen, ahol a termékek árai csak bejelentkezés után lehessen látható.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
+	A megrendelő az üzleteinek online formában való lebonyolítására egy saját weboldalt szeretne, ahol a termékeit szabadon kilistázhatja és eladásra bocsáthatja.
+	Manapság a legtöbb áruház rendelkezik online vásárlói felülettel. A megrendelő szeretné a termék eladási lehetőségeit tovább bővíteni, ezért saját webes áruház létrehozása mellet döntött.
+	A megrendelő jellenleg nem rendelkezik ilyen webáruházzal, tehát egy teljesen új oldalt létrehozása a cél.
+
 ## 5. Igényelt üzleti folyamatok modellje
 
 A megrendelő egy olyan weboldalt szeretne amin a dizájn minimalista, nincs bonyolult menü szerkezet, egyszerű az oldalon a navigáció. Rendelkezik egy admin felülettel ahol a termékeket hozzá tudja adni és a paramétereit tudja szerkeszteni. A másik elvárása a megrendelőnek, hogy a reklámok olyan helyen legyenek, hogy ne zavarják a vásárlókat. 
