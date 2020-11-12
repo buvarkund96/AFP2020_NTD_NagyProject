@@ -3,10 +3,17 @@
 ## 2. Jelenlegi helyzet
 ## 3. Vágyálom rendszer
 	A project célja egy a megrendelő igényeinek megfelelő, webshop létrehozása. A vásárlók utánvételes fizetéssel rendelhetnek.
-	A vásárlók regisztráció után a kezdőlapon szabadon megtekinthetik a termékek listáját, árral együtt. Egy külön oldalon elhelyezve látható legyen a cég alap információi, elérhetőségei.
-	A megrendelő egy külön oldalt szeretne a reklamációk, észrevételek, segítség kérések összegyűjtésére. Az összes termék listája egy külön oldalon megtalálható legyen, ahol a termékek árai csak bejelentkezés után lehessen látható.
+	A vásárlók regisztráció után a kezdőlapon szabadon megtekinthetik a termékek listáját, árral együtt.
+	Egy külön oldalon elhelyezve látható legyen a cég alap információi, elérhetőségei.
+	A megrendelő egy külön oldalt szeretne a reklamációk, észrevételek, segítség kérések összegyűjtésére.
+	Az összes termék listája egy külön oldalon megtalálható legyen, ahol a termékek árai csak bejelentkezés után lehessen látható.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
+
+	A megrendelő az üzleteinek online formában való lebonyolítására egy saját weboldalt szeretne, ahol a termékeit szabadon kilistázhatja és eladásra bocsáthatja.
+	Manapság a legtöbb áruház rendelkezik online vásárlói felülettel. A megrendelő szeretné a termék eladási lehetőségeit tovább bővíteni, ezért saját webes áruház létrehozása mellet döntött.
+	A megrendelő jellenleg nem rendelkezik ilyen webáruházzal, tehát egy teljesen új oldalt létrehozása a cél.
+
 ## 5. Igényelt üzleti folyamatok modellje
 A megrendelő egy olyan weboldalt szeretne ahonnan a vásárlók utánvételes fizetéssel tudnának rendelni, de csak akkor, ha regisztrálnak.
 
