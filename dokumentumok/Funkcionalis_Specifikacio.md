@@ -13,6 +13,29 @@ A megrendelő egy olyan weboldalt szeretne ahonnan a vásárlók utánvételes f
 - Bejelentkezés - Regisztráció oldal: Ezen a oldalon lehet regisztrálni vagy bejelentkezni. Bejelentkezés után automatikusan átirányít a kezdőlapra és kilistázza a termékeket, de már árral.
 
 ## 6. Követelménylista
+### 6.1 Funkcionális követelmények 
+k1: Keresés: 
+- Lehessen keresni a termékek között.
+
+k2: Jogkörök:
+- A rendszerben vannak adminisztrátorok, felhasználók.
+
+k3: Felhasználók és adminisztrátor jogkörei:
+- Adminisztrátori jogkörök: 
+Az admin képes a termékek leírását, árát módosítani. Képes új termékeket feltölteni.
+- Felhasználói jogkörök:
+A felhasználó képes a termékek összes paraméterét megtekinteni. 
+### 6.2 Nem funkcionális követelmények
+k4: Desing:
+- Felhasználóbarát, jól átlátható szerkezeti felépítés.
+
+k5: Platform:
+- Alkalmazás futtatható legyen az összes aktuálisan elérhető böngészők aktuális verziójával.
+
+### 6.3 Biztonsági követelmények
+k6: Titkosítás:
+- A felhasználók jelszavait titkositva kell tárolni.
+
 ## 7. Képernyőtervek
 A képernyő terveket a "kepernyo_terv" mappában lehet megtalálni JPG formátumban. Ezek látványtervek, tájékoztató jellegűek. A kivitelezés eltérhet, igény esetén módosítható. 
 ## 8. Használati esetek
