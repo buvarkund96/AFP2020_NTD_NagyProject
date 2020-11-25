@@ -1,6 +1,10 @@
 # Követelmény Specifikáció
 ## 1. Bevezetés
-## 2. Jelenlegi helyzet
+## 2. Jelenlegi helyzet 
+	Jelenleg a megrendelő személyesen bonyolítja le az eladásait, és emiatt jelentős jövedelemtől esik el, mivel nem tudja eljuttatni a termékeit más városokba más ügyfelekhez.
+        A konkurens cégek nagyrésze rendelkezik már saját webshoppal és a megrendelő sem szeretne lemaradni tőlük.
+	Fontosnak tarja ezért egy saját webshop létrehozását, hogy ezzel a piaci lehetőségeit növelhesse és az eladásra szánt termékeit bárki megtekinthesse, bejelentkezés után az árak is láthatóvá váljanak és legyen lehetőség rendelésre az oldalon keresztül. A mostani Covid helyzetben a vásárlók száma jelentősen visszaesett a fertőzés veszélye miatt.
+
 ## 3. Vágyálom rendszer
 	A project célja egy a megrendelő igényeinek megfelelő, webshop létrehozása. A vásárlók utánvételes fizetéssel rendelhetnek.
 	A vásárlók regisztráció után a kezdőlapon szabadon megtekinthetik a termékek listáját, árral együtt.
