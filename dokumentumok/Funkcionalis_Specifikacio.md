@@ -17,6 +17,7 @@
 		
 	
 ## 4. Jelenlegi üzleti folyamatok modellje
+	Jelenleg a vásárlóknak személyesen fel kell keresniük az üzletet. Csak helyben tudják felmérni a kínálatot, így házhozszállításra nincs lehetőség. A termék meghibásodása esetén a vásárlónak ismét fel kell keresnie az üzletet, amely körülményes lehet. 
 
 ## 5. Igényelt üzleti folyamatok modellje
 A megrendelő egy olyan weboldalt szeretne ahonnan a vásárlók utánvételes fizetéssel tudnának rendelni, de csak akkor, ha regisztrálnak.
