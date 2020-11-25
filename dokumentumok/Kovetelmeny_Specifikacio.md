@@ -1,5 +1,9 @@
 # Követelmény Specifikáció
 ## 1. Bevezetés
+	Olyan szinten fejlődik a technika, hogy manapság mindenki interneten néz utána a dolgoknak, így számottevő forgalomtól esik el a vállalkozó, hogyha nincs jelen az online térben. 
+	Napjainkban a legtöbb vevő a házhozszállítást részesíti előnyben, mivel ez sokkal kényelmesebb, mint személyesen felkeresni az üzletet, főleg, ha a vevő számára az üzletbe való eljutás bonyodalmakat okozhat a távolság miatt. 
+	A webshop segítségével a reklamációk alapján a vevő információkra tud szert tenni a vásárlás előtt. A webshop meg tud jelenni a népszerű ár összehasonlító oldalakon, amely jelentős reklámfelületet biztosít a cég számára.
+
 ## 2. Jelenlegi helyzet 
 	Jelenleg a megrendelő személyesen bonyolítja le az eladásait, és emiatt jelentős jövedelemtől esik el, mivel nem tudja eljuttatni a termékeit más városokba más ügyfelekhez.
         A konkurens cégek nagyrésze rendelkezik már saját webshoppal és a megrendelő sem szeretne lemaradni tőlük.
