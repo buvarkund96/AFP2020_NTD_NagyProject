@@ -10,6 +10,11 @@
 	Szeretné a cég adatait, elérhetőségeit is feltúntettni, valamint reklamáció, segítség kérésre is lehetőséget biztosítani az oldalon.
 
 ## 3. Vágyálom rendszer
+	A project célja egy a megrendelő igényeinek megfelelő, webshop létrehozása. A vásárlók utánvételes fizetéssel rendelhetnek.
+	A vásárlóknak legyen lehetőségük bejelentkezni, ahol megadhatják a kiszállítási adataikat, és a termékeknél megtekinthetik az árakat.
+	Egy külön oldalon elhelyezve látható legyen a cég alap információi, elérhetőségei.
+	A megrendelő egy külön oldalt szeretne a reklamációk, észrevételek, segítség kérések összegyűjtésére.
+		
 	
 ## 4. Jelenlegi üzleti folyamatok modellje
 
