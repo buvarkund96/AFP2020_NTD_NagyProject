@@ -71,3 +71,10 @@ Adminisztrátor felhasználó használati esetei:
 ## 9. Forgatókönyvek
 ## 10. Funkció-követelmény megfeleltetés
 ## 11. Fogalomszótár
+HTML: Alapértelmezett leíró nyelv, weboldalak készítésére szokás használni.
+
+CSS: HTML oldalak stílusnak leírására használatos nyelv.
+
+PHP: Szerveroldali szkriptnyelv dinamikus weblapok készítésére.
+
+SQL: Relációsadatbázis-kezelők lekérdezési nyelve.
