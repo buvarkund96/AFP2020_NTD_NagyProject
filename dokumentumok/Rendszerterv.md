@@ -27,3 +27,15 @@ Termékek	-> Bejeletkezés -> Sikeres bejelentkezés
 		-> Impresszum
 		-> Kapcsolat
 
+## Követelmények
+
+Funkcionális követelmények:
+	- A regisztrált felhasználók adatainak tárolása a GDPR-nak megfelelően	
+	- Webes környezetben gördülékenyen kell működnie
+ 
+   Nem funkcionális követelmények:
+	- Letisztult, egyszerű kinézet
+	- Különböző böngészők támogatása	
+
+   Törvényi előírások:
+	- A hatályban lévő GDPR szabályozásnak meg kell felelnie.
