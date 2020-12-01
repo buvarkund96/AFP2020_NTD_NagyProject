@@ -39,3 +39,37 @@ Funkcionális követelmények:
 
    Törvényi előírások:
 	- A hatályban lévő GDPR szabályozásnak meg kell felelnie.
+
+## Funkcionális terv
+
+Rendszerszereplők:
+	-Felhasználó
+	-Admin
+
+Rendszer használati esetek és lefutásaik:
+
+	Felhasználó
+		-Termékek megtakintése
+		-Rendelés leadása
+		-Bejelentkezés
+		-Regisztráció
+	
+	Admin:
+		-Termék adatainak módosítása
+		-Termék törlése
+		-Termék hozzáadása	
+	
+Menü hierarchiák:
+	-Bejelentkezés
+		-Bejelentkezés
+		-Regisztráció
+		
+	-Index
+	-Impresszum
+	-Kapcsolat
+	-Termékek(felhasználó)
+		-Termék megrendelése
+	-Termékek(admin)
+		-Termék módosítása
+		-Termék törlése
+		-Termék hozzáadása
