@@ -1,0 +1,30 @@
+.promo{
+    width: 100%;
+    float: left;
+}
+
+.promo.termekek{
+    display: flex;
+    width: 50%;
+    text-align: center; 
+    align-items: center;
+    margin: 2px auto;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+
+p{
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    float: right;
+    margin: 10px auto;
+
+}
+
+img{
+    width:100px;
+    height: 100px;
+    margin: 10px auto;
+}
