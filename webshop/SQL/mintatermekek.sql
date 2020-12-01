@@ -1,3 +1,5 @@
+USE webshop;
+
 INSERT INTO `termekek` (`tid`, `tnev`, `tleiras`, `tar`, `kep`) VALUES
 (13, 'Xiaomi 1', 'valami valami 1', 111111, '13'),
 (14, 'Xiaomi 2', 'valami valami 2', 222222, '14'),
