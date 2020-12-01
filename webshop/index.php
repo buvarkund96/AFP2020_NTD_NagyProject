@@ -5,6 +5,7 @@
 </head>
 <body>
 <?php
+session_start();
 include 'kapcsolat.php';
 
 ?>
