@@ -1,3 +1,4 @@
+USE webshop;
 
 DROP table IF EXISTS `felhasznalok`;
 
