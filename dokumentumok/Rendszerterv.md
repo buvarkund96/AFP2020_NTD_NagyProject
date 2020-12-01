@@ -7,3 +7,23 @@ A rendszer célja, hogy a Követelmény és Funkcionális specifikációban megh
 |--------------------|----------------------|----------|
 |2020.10.08-10.18| Dokumentációk megírása||
 |2020.10.19|Fejlesztés megkezdése||
+
+## Üzleti folyamatok modellje
+Üzleti szereplõk:
+	-Felhasználó
+	-Admin
+
+Támogatandó folyamatok leírása:
+	-Vásárlás
+
+Üzleti folyamatok leírása:
+
+Vásárlás:
+Az oldalon bejelentkezés után a felhasználó tudd rendelni a felkínált termékekből.
+
+-Modell:
+Termékek	-> Bejeletkezés -> Sikeres bejelentkezés
+		-> Regisztráció
+		-> Impresszum
+		-> Kapcsolat
+
