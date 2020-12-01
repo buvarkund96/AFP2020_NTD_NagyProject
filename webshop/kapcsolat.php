@@ -3,9 +3,10 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $database = "webshop";
+$port ="3308";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, $password, $database, $port);
 
 // Check connection
 if ($conn->connect_error) {
