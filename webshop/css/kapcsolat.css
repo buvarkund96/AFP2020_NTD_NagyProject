@@ -1,0 +1,27 @@
+.da{	
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 100%;
+}
+
+
+.igen h2{
+	text-align: center;
+}
+
+.igen h3{
+	text-align: center;
+}
+
+.image-box img{
+    width: 120px;
+    height: 120px;	
+}
+
+.center{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
