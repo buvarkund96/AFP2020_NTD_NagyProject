@@ -8,13 +8,15 @@
 include 'kapcsolat.php';
 
 ?>
-<div class="bejelentkezes">
+<div>
 
 	<?php print "<form method='post' action='login.php'>";
-    print "E-mail cím: <input type='text' name='email'><br>";
-    print "Jelszó: <input type='password' name='jelszo'><br>";
+    print "<form method='post' action='login.php'>";
+    print "Felhasználónév: <input type='text' name='fnev'><br>";
+    print "Jelszó: <input type='password' name='fjelszo'><br>";
     print "<input type='submit' value='Bejelentkezés'>";
-    print "</form>"; ?>
+    print "</form>";
+	?>
 </div>
 <div>
 
