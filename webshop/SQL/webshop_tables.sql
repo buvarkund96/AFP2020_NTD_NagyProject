@@ -30,5 +30,11 @@ CREATE TABLE `termekek` (
 
 DROP table IF EXISTS `kosar`;
 
-CREATE TABLE `kosar` 
+CREATE TABLE `kosar` (
+     `kid` INT(10) NOT NULL , 
+     `fid` INT(10) NOT NULL , 
+     `tid` INT(10) NOT NULL , 
+     `kfizetve` INT(2),
+     PRIMARY KEY (`kid`)
+) ENGINE = InnoDB;
 
