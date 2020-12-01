@@ -17,7 +17,14 @@ CREATE TABLE `felhasznalok` (
 
 DROP table IF EXISTS `termekek`;
 
-CREATE TABLE `termekek`
+CREATE TABLE `termekek` (
+  `tid` int(11) NOT NULL AUTO_INCREMENT,
+  `tnev` text NOT NULL,
+  `tleiras` text NOT NULL,
+  `tar` bigint(20) NOT NULL,
+  `kep` text NOT NULL,
+  PRIMARY KEY (`tid`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 
 
