@@ -73,3 +73,6 @@ Menü hierarchiák:
 		-Termék módosítása
 		-Termék törlése
 		-Termék hozzáadása
+
+## Implementációs terv
+A Webes felület főként HTML és CSS nyelven fog készülni. Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében. Az alkalmazás adatbázisát a PHP-alapú webes MySQL-kezelőfelülettel rendelkező phpMyAdmin-nal készítettük. Az eltelt időt a kliens fogja számolni a feladatoknál, hogy ne legyenek eltérések.
