@@ -74,6 +74,12 @@ Menü hierarchiák:
 		-Termék törlése
 		-Termék hozzáadása
 
+## Absztrakt modell
+A program működése során a felhasználó kétféle szerepkörben szerepelhet: Átlagos vagy admin felhasználó. Ennek megfelelően kap az alany funkciókat, 
+amelyek a szerepkörökhöz kizárólagosan vagy nem kizárólagosan kapcsolódnak: azaz vagy csak ő fér hozzá, vagy mindketten a saját oldalukról.
+Az általános alany szerepkörét a bejelentkezés után a jogosultság vizsgálata dönti el. Ezen a szinten még csak logikai elkülönítés történik a funkciók elérésében, nem valódi. 
+Ez azt jelenti, hogy például a termék vásárlás hozzáférhető mindkét szerepkör számára, de az termékfeltöltés csak az admin felhasználónak érhető el.
+
 ## Implementációs terv
 A Webes felület főként HTML és CSS nyelven fog készülni. Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében. Az alkalmazás adatbázisát a PHP-alapú webes MySQL-kezelőfelülettel rendelkező phpMyAdmin-nal készítettük. Az eltelt időt a kliens fogja számolni a feladatoknál, hogy ne legyenek eltérések.
 
