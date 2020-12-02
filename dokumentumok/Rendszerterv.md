@@ -76,3 +76,10 @@ Menü hierarchiák:
 
 ## Implementációs terv
 A Webes felület főként HTML és CSS nyelven fog készülni. Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében. Az alkalmazás adatbázisát a PHP-alapú webes MySQL-kezelőfelülettel rendelkező phpMyAdmin-nal készítettük. Az eltelt időt a kliens fogja számolni a feladatoknál, hogy ne legyenek eltérések.
+
+## Karbantartási terv
+A szoftveren a későbbiekben nem kell nagyobb karbantartásokat elvégezni. Az esetleges karbantartások a következőből állhatnak:
+- Tesztelés frissebb veriójú böngészők használatával. Hiba észlelése esetén azok javítása.
+- A kiszolgáló szerver státuszának ellenőrzése, offline szerver esetén újraindítás.
+- Új termékek hozzáadása.
+- Igény esetén új funkciók hozzáadása.
