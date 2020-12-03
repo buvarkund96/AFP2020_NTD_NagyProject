@@ -43,6 +43,13 @@ else{
 }
 
 echo '</div>';
-
+if ($_SESSION['fid'] < 5 && $_SESSION['fid'] != null) {
+  echo '<form action="newTermek.php">';
+    echo "Termék név:<br><input type='text' name='tnev'><br>";
+    echo "Ár:<br><input type='text' name='tar'><br>";
+    echo "Leírás:<br><textarea name='tleiras' cols='50' rows='3'></textarea><br>";
+   echo '<input type="submit" value="Új termék hozzáadása" />';
+echo '</form>';
+}
 
 ?>
