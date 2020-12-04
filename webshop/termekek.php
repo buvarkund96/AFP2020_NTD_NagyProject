@@ -6,19 +6,27 @@ if(!isset($_SESSION)){
 }
 echo '<link rel="stylesheet" href="css/termekek.css" type="text/css">';
 echo '<div class="page">';
-$sql= "SELECT * FROM termekek Where tar > 1000";
+$sql= "SELECT * FROM termekek";
 $result = $conn->query($sql);
+//----------------------------------------------------------------------------------------------------
+$sid ='4';
+
+//----------------------------------------------------------------------------------------------------
 
 
-if($_SESSION['fid'] ==''){
+if($sid ==''){
   if ($result->num_rows > 0) {
     // output data of each row
      while($row = $result->fetch_assoc()) {
       $kep=$row["kep"].".jpg";
 
       echo '<div class="page termekek">';
-      echo "<img style='width:42px;height:42px' src='img/$kep'>";
-      echo "cikkszám: " . $row["tid"]. " | Terméknév: " . $row["tnev"]. " | Leírás:" . $row["tleiras"];
+      echo "<form method='post' action='termLap.php'>";
+      echo "<button type='submit' name='id' value='".$row["tid"]."'><img src='img/$kep'></button>";
+      echo "<p name='id'>cikkszám: " .$row["tid"];
+      echo "| Terméknév: " . $row["tnev"];
+      echo "| Leírás:" . $row["tleiras"];
+      echo "</form>";
       echo '</div>';
     }
   } else {
@@ -32,9 +40,13 @@ else{
       $kep=$row["kep"].".jpg";
       $tid=$row["tid"];
       echo '<div class="page termekek">'; 
-
-      echo "<img style='width:42px;height:42px' src='img/$kep'>";
-      echo "cikkszám: " . $row["tid"]. " | Terméknév: " . $row["tnev"]. " | Leírás:" . $row["tleiras"]. " | Ár " .$row["tar"];
+      echo "<form method='post' action='termLap.php'>";
+      echo "<button type='submit' name='id' value='".$row["tid"]."'><img src='img/$kep'></button>";
+      echo "<p name='id'>cikkszám: " .$row["tid"];
+      echo "| Terméknév: " . $row["tnev"];
+      echo "| Leírás:" . $row["tleiras"];
+      echo "| Ár:" . $row["tar"];
+      echo "</form>";
       echo '</div>';
     }
   } else {
@@ -43,13 +55,22 @@ else{
 }
 
 echo '</div>';
-if ($_SESSION['fid'] < 5 && $_SESSION['fid'] != null) {
+echo '<div class="delete">';
+if ($sid < 5 && $sid != null) {
+  echo "Termék hozzáadása";
   echo '<form action="newTermek.php">';
     echo "Termék név:<br><input type='text' name='tnev'><br>";
     echo "Ár:<br><input type='text' name='tar'><br>";
     echo "Leírás:<br><textarea name='tleiras' cols='50' rows='3'></textarea><br>";
-   echo '<input type="submit" value="Új termék hozzáadása" />';
-echo '</form>';
-}
+    echo '<input type="submit" value="Új termék hozzáadása" />';
+  echo '</form><br>';
 
+  echo "Törlés cikkszám alapján";
+  echo '<form action="deleteTermek.php">';
+    echo "Cikkszám:<br><input type='text' name='tid'><br>";
+    echo '<input type="submit" value="Törlés" />';
+  echo '</form><br>';
+
+}
+echo "</delete>";
 ?>
