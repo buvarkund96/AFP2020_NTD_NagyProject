@@ -7,6 +7,8 @@ A rendszer célja, hogy a Követelmény és Funkcionális specifikációban megh
 |--------------------|----------------------|----------|
 |2020.10.08-10.18| Dokumentációk megírása||
 |2020.10.19|Fejlesztés megkezdése||
+|2020.12.8-9|Tesztelés||
+|2020.12.10| Projekt átadás| Hamar Dávid, Kovács Barnabás, Kertész Zoltán
 
 ## Üzleti folyamatok modellje
 Üzleti szereplõk:
