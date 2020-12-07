@@ -19,7 +19,6 @@ include 'kapcsolat.php';
 	$fid=$_SESSION['SESS_FID'];
 	
 if($fid==''){		
-	print "<form method='post' action='login.php'>";
     print "<form method='post' action='login.php'>";
     print "Felhasználónév: <br><input type='text' name='fnev'><br>";
     print "Jelszó: <br><input type='password' name='fjelszo'><br>";
