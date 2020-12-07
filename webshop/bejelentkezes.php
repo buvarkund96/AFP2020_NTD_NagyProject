@@ -11,7 +11,8 @@ include 'kapcsolat.php';
 <div class="navBar">
     <?php include_once 'top_nav.php'; ?>
 </div>
-<div>
+<div class="bejreg">
+<div class="bej">
 
 	<?php
 	ession_start();
@@ -30,7 +31,7 @@ if($vid==''){
   }
 	?>
 </div>
-<div>
+<div class="reg">
 <?php
 	print "<form method='post' action='regisztracio.php'>";
     print "Felhasználónév: <input type='text' name='fnev' required><br>";
@@ -40,6 +41,7 @@ if($vid==''){
     print "<input type='submit' value='Regisztráció'>";
     print "</form>";
 	?>
+</div>
 </div>
 </body>
 </html>
