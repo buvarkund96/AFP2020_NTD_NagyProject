@@ -61,7 +61,7 @@ Hozzáférések jogultság szerint:
 
 Sima felhasználó használati esetei:
 - Regisztráció: A felhasználó képes önmagát beregisztrálni a rendszerbe.
-- Bejelentkezés: Regisztráció után megnyilik a bejelentkezés lehtősége a rendszerbe.
+- Bejelentkezés: Regisztráció után megnyilik a bejelentkezés lehetősége a rendszerbe.
 - Listázás: Képes az összes terméket kilistázni. 
 
 Adminisztrátor felhasználó használati esetei:
@@ -73,14 +73,14 @@ Adminisztrátor felhasználó használati esetei:
 Az alkalmazás webes felületü, ezért kell hozzá egy böngésző amivel megtudjuk nyitni, illetve kell egy webszerver is.
 Utóbbira azért van szükség mert az alkalmazás PHP oldalakból áll, amiknek a futtatásához webszerver szükséges, illetve 
 még ahoz is szükséges a webszerver, hogy tárolni tudjuk az alkalmazáshoz szükséges adatokat (bejelentkezéshez szükséges 
-felhasználói adatok, termékek és azok adatai). Elinditáskor egy oldal fogad minket, ahonan lehet bejelentkezni a rendszerbe.
+felhasználói adatok, termékek és azok adatai). Elinditáskor egy oldal fogad minket, ahol lehetőség van a  bejelentkezésre vagy a regisztrációra.
 Amint beirtuk a felhasználónevünket, jelszavunkat és rányomtunk a bejelentkezés gombra akkor a rendszer összeveti a rendszerben lévő
-felhasználókkal és az alapján, hogy milyen jogosultságuak -admin vagy sima felhasználó- irányitja a megfelelő oldalra. Ha a jelszó vagy
-a felhasználó nem jó, akkor azt az oldal kijelzi. Ha esetleg még nem vagyunk részese a rendszernek akkor lehetőségünk van regisztrációra.
+felhasználókkal és az alapján, hogy milyen jogosultságuak -admin vagy sima felhasználó- irányitja a kezdőoldalra, már bejelenkezett felhasználóként. Ha a jelszó vagy
+a felhasználó nem jó, akkor azt az oldal kijelzi. Ha esetleg még nem vagyunk részese a rendszernek akkor lehetőségünk van regisztrációra. Regisztrációnál kötelező adat a felhasználónév, a jelszó, az e-mail cím. A további adatokat lehetőségünk van később kitölteni.
 Admin bejelentkezés esetén képesek vagyunk a termék adatbázis bővitésére, módosítására, kilistázására. Sima felhasználó esetén képesek 
-vagyunk az adatbázisban lévő összes termék kilistázására, megtekintésére, valamint a kosár funkciónak köszönhetően egyszerre több termék megrendelésére.
+vagyunk az adatbázisban lévő összes termék kilistázására, megtekintésére, valamint a kosár funkciónak köszönhetően egyszerre több terméket tudunk megrendelni.
 A termékek árainak megtekintése csak bejelentkezés után lehetséges. Az impresszum és kapcsolat felületen elérhetőek a cég adatai, valamint reklamáció esetén az elérhetőségük.
-Természetesen minden felületről tovább lehet menni a másik felületre.
+A menüszerkezetnek köszönhetően az oldal elemei minden aloldalról elérhetőek.
 
 ## 10. Funkció-követelmény megfeleltetés
 f1: Jogkörök:
