@@ -68,7 +68,20 @@ Adminisztrátor felhasználó használati esetei:
 - Bejelentkezés: Az adminisztrátor képes bejelentkezni a rendszerbe.
 - Termékek kezelése: Képes a termékeket módosítani, új terméket felvenni.
 - Listázás: Az admin képes az összes terméket kilistázni.
+
 ## 9. Forgatókönyvek
+Az alkalmazás webes felületü, ezért kell hozzá egy böngésző amivel megtudjuk nyitni, illetve kell egy webszerver is.
+Utóbbira azért van szükség mert az alkalmazás PHP oldalakból áll, amiknek a futtatásához webszerver szükséges, illetve 
+még ahoz is szükséges a webszerver, hogy tárolni tudjuk az alkalmazáshoz szükséges adatokat (bejelentkezéshez szükséges 
+felhasználói adatok, termékek és azok adatai). Elinditáskor egy oldal fogad minket, ahonan lehet bejelentkezni a rendszerbe.
+Amint beirtuk a felhasználónevünket, jelszavunkat és rányomtunk a bejelentkezés gombra akkor a rendszer összeveti a rendszerben lévő
+felhasználókkal és az alapján, hogy milyen jogosultságuak -admin vagy sima felhasználó- irányitja a megfelelő oldalra. Ha a jelszó vagy
+a felhasználó nem jó, akkor azt az oldal kijelzi. Ha esetleg még nem vagyunk részese a rendszernek akkor lehetőségünk van regisztrációra.
+Admin bejelentkezés esetén képesek vagyunk a termék adatbázis bővitésére, módosítására, kilistázására. Sima felhasználó esetén képesek 
+vagyunk az adatbázisban lévő összes termék kilistázására, megtekintésére, valamint a kosár funkciónak köszönhetően egyszerre több termék megrendelésére.
+A termékek árainak megtekintése csak bejelentkezés után lehetséges. Az impresszum és kapcsolat felületen elérhetőek a cég adatai, valamint reklamáció esetén az elérhetőségük.
+Természetesen minden felületről tovább lehet menni a másik felületre.
+
 ## 10. Funkció-követelmény megfeleltetés
 f1: Jogkörök:
 - k2, k3, k6 követelményeknek felel meg.
