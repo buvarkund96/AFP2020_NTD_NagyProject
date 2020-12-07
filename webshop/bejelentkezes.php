@@ -16,9 +16,9 @@ include 'kapcsolat.php';
 
 	<?php
 	ession_start();
-	$vid=$_SESSION['SESS_FID'];
+	$fid=$_SESSION['fid'];
 	
-if($vid==''){		
+if($fid==''){		
 	print "<form method='post' action='login.php'>";
     print "<form method='post' action='login.php'>";
     print "Felhasználónév: <br><input type='text' name='fnev'><br>";
