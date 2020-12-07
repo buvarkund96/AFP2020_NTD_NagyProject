@@ -1,0 +1,24 @@
+input[type=text] {
+  padding:10px;
+  margin:5px 0;
+}
+
+.bejreg {
+    overflow: hidden;
+	padding: 50px;
+	text-align: center;
+}
+
+.bej{
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+	display: inline-block;
+}
+.reg{
+	float: right;
+	overflow: hidden;
+	width: 75%;
+	margin-top: 6px;
+	display: inline-block;
+}
