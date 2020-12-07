@@ -16,7 +16,7 @@ include 'kapcsolat.php';
 
 	<?php
 	ession_start();
-	$fid=$_SESSION['fid'];
+	$fid=$_SESSION['SESS_FID'];
 	
 if($fid==''){		
 	print "<form method='post' action='login.php'>";
