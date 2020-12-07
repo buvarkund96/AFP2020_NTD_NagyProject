@@ -21,8 +21,8 @@ include 'kapcsolat.php';
 if($vid==''){		
 	print "<form method='post' action='login.php'>";
     print "<form method='post' action='login.php'>";
-    print "Felhasználónév: <input type='text' name='fnev'><br>";
-    print "Jelszó: <input type='password' name='fjelszo'><br>";
+    print "Felhasználónév: <br><input type='text' name='fnev'><br>";
+    print "Jelszó: <br><input type='password' name='fjelszo'><br>";
     print "<input type='submit' value='Bejelentkezés'>";
     print "</form>";
   }
@@ -34,10 +34,10 @@ if($vid==''){
 <div class="reg">
 <?php
 	print "<form method='post' action='regisztracio.php'>";
-    print "Felhasználónév: <input type='text' name='fnev' required><br>";
-    print "Jelszó: <input type='password' name='fjelszo' required><br>";
-	print "Email: <input type='text' name='femail' required><br>";
-	print "Lakcím: <input type='text' name='flakcim'><br>";
+    print "Felhasználónév: <br><input type='text' name='fnev' required><br>";
+    print "Jelszó: <br><input type='password' name='fjelszo' required><br>";
+	print "Email: <br><input type='text' name='femail' required><br>";
+	print "Lakcím: <br><input type='text' name='flakcim'><br>";
     print "<input type='submit' value='Regisztráció'>";
     print "</form>";
 	?>
