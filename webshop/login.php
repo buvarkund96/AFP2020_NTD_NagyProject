@@ -1,24 +1,25 @@
 <?php
-session_start();
+if(!isset($_SESSION)){
+    session_start();
+  }
 include('kapcsolat.php');
+if (isset($_POST['login'])) {
+    $fnev = $_POST['fnev'];
+    $fjelszo = $_POST['fjelszo'];
+    $sql="SELECT fid FROM felhasznalok WHERE fnev='$fnev' && fjelszo='$fjelszo'";
+    $result = $conn->query($sql);
 
-$nev			= $_REQUEST['fnev'];
-$jelszo			= $_REQUEST['fjelszo'];
-//$jelszo			= md5($jelszo);
-
-
-$sql = "SELECT fid FROM felhasznalok WHERE fnev = '$nev' AND fjelszo = '$jelszo'";
-$result = mysqli_query($conn,$sql);
-$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-$active = $row['active'];
-$count = mysqli_num_rows($result);
-		
-if($count == 1){
-    $_SESSION['SESS_FID'] = $nev;	
+    if ($result->num_rows > 0) {
+        // output data of each row
+         while($row = $result->fetch_assoc()) {
+         echo $row["fid"];
+         $_SESSION['fid'] = $row["fid"];
+         echo $_SESSION['fid'];
+         header("Location: index.php");
+        }
+      } else {
+        echo "Hibás felhasználónév vagy jelszó";
+        header("Location: bejelentkezes.php");
+      }
 }
-else{
-	$error = "Your Login Name or Password is invalid";
-}
-
-header("Location: bejelentkezes.php");
 ?>
