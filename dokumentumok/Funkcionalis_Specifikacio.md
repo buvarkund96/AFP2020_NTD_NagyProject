@@ -70,6 +70,18 @@ Adminisztrátor felhasználó használati esetei:
 - Listázás: Az admin képes az összes terméket kilistázni.
 ## 9. Forgatókönyvek
 ## 10. Funkció-követelmény megfeleltetés
+f1: Jogkörök:
+- k2, k3, k6 követelményeknek felel meg.
+Más funkciókhoz fér hozzá egy sima felhasználó mint az adminisztrátor.
+
+f2: Keresés:
+- k1, k4, k5 követelményeknek felel meg.
+Lehet keresni a termékek között.
+
+f3: Termék kezelés: 
+- k3, k4, k5 követelményeknek felel meg.
+Az alkamazás admin felhasználóval képes termékeket feltölteni a rendszerbe azok adatait módositani, ha kell, illetve törölni is.
+
 ## 11. Fogalomszótár
 HTML: Alapértelmezett leíró nyelv, weboldalak készítésére szokás használni.
 

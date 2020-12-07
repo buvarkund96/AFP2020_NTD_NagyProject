@@ -7,6 +7,8 @@ A rendszer célja, hogy a Követelmény és Funkcionális specifikációban megh
 |--------------------|----------------------|----------|
 |2020.10.08-10.18| Dokumentációk megírása||
 |2020.10.19|Fejlesztés megkezdése||
+|2020.12.8-9|Tesztelés||
+|2020.12.10| Projekt átadás| Hamar Dávid, Kovács Barnabás, Kertész Zoltán
 
 ## Üzleti folyamatok modellje
 Üzleti szereplõk:
@@ -73,3 +75,19 @@ Menü hierarchiák:
 		-Termék módosítása
 		-Termék törlése
 		-Termék hozzáadása
+
+## Absztrakt modell
+A program működése során a felhasználó kétféle szerepkörben szerepelhet: Átlagos vagy admin felhasználó. Ennek megfelelően kap az alany funkciókat, 
+amelyek a szerepkörökhöz kizárólagosan vagy nem kizárólagosan kapcsolódnak: azaz vagy csak ő fér hozzá, vagy mindketten a saját oldalukról.
+Az általános alany szerepkörét a bejelentkezés után a jogosultság vizsgálata dönti el. Ezen a szinten még csak logikai elkülönítés történik a funkciók elérésében, nem valódi. 
+Ez azt jelenti, hogy például a termék vásárlás hozzáférhető mindkét szerepkör számára, de az termékfeltöltés csak az admin felhasználónak érhető el.
+
+## Implementációs terv
+A Webes felület főként HTML és CSS nyelven fog készülni. Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében. Az alkalmazás adatbázisát a PHP-alapú webes MySQL-kezelőfelülettel rendelkező phpMyAdmin-nal készítettük. Az eltelt időt a kliens fogja számolni a feladatoknál, hogy ne legyenek eltérések.
+
+## Karbantartási terv
+A szoftveren a későbbiekben nem kell nagyobb karbantartásokat elvégezni. Az esetleges karbantartások a következőből állhatnak:
+- Tesztelés frissebb veriójú böngészők használatával. Hiba észlelése esetén azok javítása.
+- A kiszolgáló szerver státuszának ellenőrzése, offline szerver esetén újraindítás.
+- Új termékek hozzáadása.
+- Igény esetén új funkciók hozzáadása.
