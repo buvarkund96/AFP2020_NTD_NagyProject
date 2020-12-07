@@ -8,6 +8,9 @@
 include 'kapcsolat.php';
 
 ?>
+<div class="navBar">
+    <?php include_once 'top_nav.php'; ?>
+</div>
 <div>
 
 	<?php
