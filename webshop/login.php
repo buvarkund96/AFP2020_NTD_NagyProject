@@ -3,9 +3,9 @@ if(!isset($_SESSION)){
     session_start();
   }
 include('kapcsolat.php');
-if (isset($_POST['login'])) {
-    $fnev = $_POST['fnev'];
-    $fjelszo = $_POST['fjelszo'];
+
+    $fnev = $_REQUEST['fnev'];
+    $fjelszo = $_REQUEST['fjelszo'];
     $sql="SELECT fid FROM felhasznalok WHERE fnev='$fnev' && fjelszo='$fjelszo'";
     $result = $conn->query($sql);
 
@@ -21,5 +21,5 @@ if (isset($_POST['login'])) {
         echo "Hibás felhasználónév vagy jelszó";
         header("Location: bejelentkezes.php");
       }
-}
+
 ?>

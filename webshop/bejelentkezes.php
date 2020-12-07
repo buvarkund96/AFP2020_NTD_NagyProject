@@ -15,11 +15,10 @@ include 'kapcsolat.php';
 <div class="bej">
 
 	<?php
-	ession_start();
-	$fid=$_SESSION['SESS_FID'];
+	session_start();
+	$fid=$_SESSION['fid'];
 	
 if($fid==''){		
-	print "<form method='post' action='login.php'>";
     print "<form method='post' action='login.php'>";
     print "Felhasználónév: <br><input type='text' name='fnev'><br>";
     print "Jelszó: <br><input type='password' name='fjelszo'><br>";
@@ -33,6 +32,9 @@ if($fid==''){
 </div>
 <div class="reg">
 <?php
+	$fid=$_SESSION['fid'];
+	
+if($fid==''){
 	print "<form method='post' action='regisztracio.php'>";
     print "Felhasználónév: <br><input type='text' name='fnev' required><br>";
     print "Jelszó: <br><input type='password' name='fjelszo' required><br>";
@@ -40,6 +42,10 @@ if($fid==''){
 	print "Lakcím: <br><input type='text' name='flakcim'><br>";
     print "<input type='submit' value='Regisztráció'>";
     print "</form>";
+}
+else{
+	print "Már regisztráltál.";
+}
 	?>
 </div>
 </div>
