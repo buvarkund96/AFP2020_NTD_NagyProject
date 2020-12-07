@@ -31,7 +31,15 @@ if($vid==''){
 	?>
 </div>
 <div>
-
+<?php
+	print "<form method='post' action='regisztracio.php'>";
+    print "Felhasználónév: <input type='text' name='fnev' required><br>";
+    print "Jelszó: <input type='password' name='fjelszo' required><br>";
+	print "Email: <input type='text' name='femail' required><br>";
+	print "Lakcím: <input type='text' name='flakcim'><br>";
+    print "<input type='submit' value='Regisztráció'>";
+    print "</form>";
+	?>
 </div>
 </body>
 </html>
