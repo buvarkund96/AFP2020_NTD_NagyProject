@@ -32,7 +32,6 @@ if($fid==''){
 </div>
 <div class="reg">
 <?php
-	session_start();
 	$fid=$_SESSION['fid'];
 	
 if($fid==''){
