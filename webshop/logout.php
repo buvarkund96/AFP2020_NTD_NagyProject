@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$_SESSION['SESS_FID']='';
+$_SESSION['fid']='';
 
 header("Location: bejelentkezes.php");
 ?>
