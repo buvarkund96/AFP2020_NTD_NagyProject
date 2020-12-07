@@ -1,20 +1,10 @@
-<!DOCTYPE HTML>
+<?php include 'top_nav.php'; ?>
 <html>
 <head>
-<link rel="stylesheet" href="css/nav_bar.css" type="text/css">
 <link rel="stylesheet" href="css/impresszum.css">
-<div class="cim">
-    <h1 class="cimSor"> AFP_NTD Webshop <h1>
-</div>
-<div class="topnav">
-<a href="index.php" style="border-left:2px solid black">---</a>
-<a href="termekek.php">Termékek</a>
-<a href="#impressum">Impresszum</a>
-<a href="#kapcsolat">Kapcsolat</a>
-<a href="#logSign">Bejelentkezés - Regisztráció</a>
-</div>
 </head>
 <body>
+
 <div class="nem">
 <table class="nein">
 <tr>       
