@@ -16,7 +16,9 @@ include 'kapcsolat.php';
 <div class="bej">
 
 	<?php
-	session_start();
+	if(!isset($_SESSION)){
+        session_start();
+    }
 	$fid=$_SESSION['fid'];
 	
 if($fid==''){		
