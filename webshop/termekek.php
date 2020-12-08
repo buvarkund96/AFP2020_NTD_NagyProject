@@ -67,8 +67,8 @@ if ($_SESSION['fid'] < 5 && $_SESSION['fid'] != null) {
   echo "Termék hozzáadása";
     echo '<form action="newTermek.php">';
       echo "Termék név:<br><input type='text' name='tnev' required><br>";
-      echo "Ár:<br><input type='text' name='tar' required><br>";
-      echo "Leírás:<br><textarea name='tleiras' cols='50' rows='3' required></textarea><br>";
+      echo "Ár:<br><input type='text' name='tar' required/><br>";
+      echo "Leírás:<br><input type='text' name='tleiras'><br>";
       echo '<input type="submit" value="Új termék hozzáadása" />';
     echo '</form><br>';
 

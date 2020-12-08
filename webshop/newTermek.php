@@ -11,7 +11,7 @@ echo $tnev;
 echo $tar;
 echo $tleiras;
 
-$sql= "INSERT INTO `termekek`(`tnev`, `tleiras`, `tar`) VALUES ('$tnev','$tar','$tleiras')";
+$sql= "INSERT INTO `termekek`(`tnev`, `tar`,`tleiras`) VALUES ('$tnev','$tar','$tleiras')";
 if ($conn->query($sql) === TRUE) {
     echo "Sikeres feltöltés";
   } else {
