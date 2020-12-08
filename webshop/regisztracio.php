@@ -11,10 +11,10 @@ $emailCheck = $conn->query( "SELECT * FROM felhasznalok WHERE femail = '{$cim}' 
 $felhasznaloCheck = $conn->query("SELECT * FROM felhasznalok WHERE fnev = '{$nev}' ");
 
 	if($emailCheck->num_rows > 0) {
-        echo ="Már létező email cím!";                
+        echo "Már létező email cím!";                
     } else {
 		if($felhasznaloCheck->num_rows > 0){
-			echo ="Már létező felhasználónév!";
+			echo "Már létező felhasználónév!";
 		}
 		else{
 			$sql ="INSERT INTO felhasznalok (fnev, fjelszo, femail, flakcim) 
@@ -24,7 +24,7 @@ $felhasznaloCheck = $conn->query("SELECT * FROM felhasznalok WHERE fnev = '{$nev
         if(!$sql){
             die("MySQL query failed!" . mysqli_error($conn));
         } else {
-            echo = "Sikeres regisztráció!";				
+            echo "Sikeres regisztráció!";				
         }
 	}
 
