@@ -8,11 +8,11 @@
 <body>
 
 <div class="igen">
-<table class="da">
-<tr>
+<table class="da" style="height:100px">
+<tr style="height:100">
    <td colspan="3" style="vertical-align:bottom;"><h2>Kapcsolat</h2></td>
    </tr>   
- <tr><td class="image-box"><img src="./img/Névtelen.jpg" alt="Névtelen" class="center"></td>
+ <tr style="height:100"><td class="image-box"><img src="./img/Névtelen.jpg" alt="Névtelen" class="center"></td>
    <td>	<h3>Cégnév<br></h3>
 		<h4>Ügyfélszolgálat:<br>
 		Telefonszám: 06302564567<br>

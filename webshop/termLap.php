@@ -2,8 +2,8 @@
 if(!isset($_SESSION)){
     session_start();
   }
-include_once ("kapcsolat.php");
-include_once ("top_nav.php");
+include_once "kapcsolat.php";
+include_once "top_nav.php";
 echo '<link rel="stylesheet" href="css/termek.css" type="text/css">';
 $id = $_POST['id'];
 //----------------------------------------------------------------------------------------------------
@@ -31,13 +31,14 @@ if ($_SESSION['fid']<5 && $_SESSION['fid'] != null) {
       echo '<button id="Submit" name="submit" type="submit" value="'.$row["tid"].'">Feltöltés</button>';
     echo '</form>';
   }
-} elseif($_SESSION['fid'] > 5){
+} elseif($_SESSION['fid'] > 5 || $_SESSION['fid'] == null){
   while($row = $result->fetch_assoc()) {
     $kep=$row["kep"].".jpg";
     echo '<div class="termek">';
     echo "<img src='img/$kep'>";
     echo "<p> Termék neve: <br>" .$row['tnev'];
     echo "<p> Termék leírása: <br>" .$row["tleiras"];
+    echo "<p> Termék ára: <br>" .$row["tar"];
     echo "</div>";
     }
   

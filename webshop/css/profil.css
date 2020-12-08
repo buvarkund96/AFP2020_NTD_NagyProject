@@ -1,0 +1,23 @@
+.profil{
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    text-align: center;
+}
+
+.lakcim{
+    height: 50px;
+    width: 200px;
+}
+
+footer{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.rendeles{
+    display: grid;
+    width: 30%;
+    border: 2px solid black;
+    margin: auto;
+}
