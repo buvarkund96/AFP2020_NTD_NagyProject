@@ -1,5 +1,5 @@
 <?php
-include_once("../kapcsolat.php");
+include_once "kapcsolat.php";
 if(!isset($_SESSION)){
   session_start();
 }
@@ -17,5 +17,5 @@ if ($conn->query($sql) === TRUE) {
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
-header("Location:../termekek.php");
+header("Location:termekek.php");
 ?>
