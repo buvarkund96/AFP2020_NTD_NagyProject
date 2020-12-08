@@ -48,7 +48,7 @@ else{
           echo "| Leírás:" . $row["tleiras"];
           echo "| Ár:" . $row["tar"];
         echo "</form>";
-        echo "<form action='feldolgozok/kosarba.php'>";
+        echo "<form action='kosarba.php'>";
           echo "<input type='number' name='mennyiseg' min='1' value='1'>";
           echo "<button id='btn' onclick='showAlert()' class='kosar' type='submit' name='id' value='".$row["tid"]."'>Kosárba</button>";
           echo '<script type="text/javascript" src="JS/scripts.js"></script>';
