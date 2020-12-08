@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Bejelentkezés/Regisztráció</title>
+<link rel="stylesheet" href="css/bejreg.css">
 <meta charset="UTF-8">
 </head>
 <body>
