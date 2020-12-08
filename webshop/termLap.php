@@ -38,6 +38,7 @@ if ($_SESSION['fid']<5 && $_SESSION['fid'] != null) {
     echo "<img src='img/$kep'>";
     echo "<p> Termék neve: <br>" .$row['tnev'];
     echo "<p> Termék leírása: <br>" .$row["tleiras"];
+    echo "<p> Termék ára: <br>" .$row["tar"];
     echo "</div>";
     }
   
