@@ -1,3 +1,8 @@
+<?php
+if(!isset($_SESSION)){
+    session_start();
+}
+?>
 <link rel="stylesheet" href="css/nav_bar.css" type="text/css">
 <div class="cim">
     <h1 class="cimSor"><a href="index.php"> AFP_NTD Webshop </a><h1>
