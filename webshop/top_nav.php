@@ -8,4 +8,7 @@
 <a href="impresszum.php">Impresszum</a>
 <a href="contact.php">Kapcsolat</a>
 <a href="bejelentkezes.php">Bejelentkezés - Regisztráció</a>
+<?php if ($_SESSION['fid'] != null) {
+    echo '<a href="profil.php">Profilom</a>';
+}?>
 </div>
