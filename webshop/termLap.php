@@ -31,7 +31,7 @@ if ($_SESSION['fid']<5 && $_SESSION['fid'] != null) {
       echo '<button id="Submit" name="submit" type="submit" value="'.$row["tid"].'">Feltöltés</button>';
     echo '</form>';
   }
-} elseif($_SESSION['fid'] > 5){
+} elseif($_SESSION['fid'] > 5 || $_SESSION['fid'] == null){
   while($row = $result->fetch_assoc()) {
     $kep=$row["kep"].".jpg";
     echo '<div class="termek">';
