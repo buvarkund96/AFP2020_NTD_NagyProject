@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/nav_bar.css" type="text/css">
 <div class="cim">
-    <h1 class="cimSor"> AFP_NTD Webshop <h1>
+    <h1 class="cimSor"><a href="index.php"> AFP_NTD Webshop </a><h1>
 </div>
 <div class="topnav">
 <a href="index.php" style="border-left:2px solid black">---</a>
