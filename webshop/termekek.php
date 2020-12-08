@@ -65,7 +65,7 @@ echo '</div>';
 if ($_SESSION['fid'] < 5 && $_SESSION['fid'] != null) {
   echo '<div class="delete">';
   echo "Termék hozzáadása";
-    echo '<form action="feldolgozok/newTermek.php">';
+    echo '<form action="newTermek.php">';
       echo "Termék név:<br><input type='text' name='tnev' required><br>";
       echo "Ár:<br><input type='text' name='tar' required><br>";
       echo "Leírás:<br><textarea name='tleiras' cols='50' rows='3' required></textarea><br>";
@@ -73,7 +73,7 @@ if ($_SESSION['fid'] < 5 && $_SESSION['fid'] != null) {
     echo '</form><br>';
 
   echo "Törlés cikkszám alapján";
-    echo '<form action="feldolgozok/deleteTermek.php">';
+    echo '<form action="deleteTermek.php">';
      echo "Cikkszám:<br><input type='text' name='tid'><br>";
      echo '<input type="submit" value="Törlés" />';
     echo '</form><br>';
