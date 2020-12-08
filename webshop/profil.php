@@ -12,7 +12,7 @@ $felhasznalo = $conn->query($sql);
 
 if ($felhasznalo != null) {
     while($row = $felhasznalo->fetch_assoc()) {
-    echo '<form action="feldolgozok/updateProfil.php">';
+    echo '<form action="updateProfil.php">';
       echo "Jelszó:<br><input type='text' name='fjelszo' value='".$row['fjelszo']."'><br>";
       echo "Email cím:<br><input type='email' name='femail' value='".$row["femail"]."'><br>";
       echo "Lakcím:<br><input class='lakcim' type='text' name='flakcim' value='".$row["flakcim"]."'><br>";
