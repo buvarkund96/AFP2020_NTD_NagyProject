@@ -2,8 +2,8 @@
 if(!isset($_SESSION)){
     session_start();
   }
-include_once ("kapcsolat.php");
-include_once ("top_nav.php");
+include_once "kapcsolat.php";
+include_once "top_nav.php";
 echo '<link rel="stylesheet" href="css/termek.css" type="text/css">';
 $id = $_POST['id'];
 //----------------------------------------------------------------------------------------------------
