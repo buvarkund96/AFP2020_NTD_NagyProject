@@ -8,9 +8,9 @@
 <div class="nem">
 <table class="nein">
 <tr>       
- <td class="image-box"><img src="./css/Névtelen.jpg" alt="Névtelen" class="center"></td>
+ <td class="image-box"><img src="./img/Névtelen.jpg" alt="Névtelen" class="center"></td>
    <td> <h2>AFP_NTD_WEBSHOP IMPRESSZUM</h2></td>
-   <td class="image-box"><img src="./css/Névtelen.jpg" alt="Névtelen" class="center"></td>
+   <td class="image-box"><img src="./img/Névtelen.jpg" alt="Névtelen" class="center"></td>
 </tr>
 <tr>
 <td></td>
