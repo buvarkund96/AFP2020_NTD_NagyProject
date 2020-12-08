@@ -39,7 +39,7 @@ if($fid==''){
 	print "<form method='post' action='regisztracio.php'>";
     print "Felhasználónév: <br><input type='text' name='fnev' required><br>";
     print "Jelszó: <br><input type='password' name='fjelszo' required><br>";
-	print "Email: <br><input type='text' name='femail' required><br>";
+	print "Email: <br><input type='email' name='femail' required><br>";
 	print "Lakcím: <br><input type='text' name='flakcim'><br>";
     print "<input type='submit' value='Regisztráció'>";
     print "</form>";
