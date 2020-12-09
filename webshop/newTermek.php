@@ -1,5 +1,5 @@
 <?php
-include_once("../kapcsolat.php");
+include_once "kapcsolat.php";
 if(!isset($_SESSION)){
   session_start();
 }
@@ -11,11 +11,11 @@ echo $tnev;
 echo $tar;
 echo $tleiras;
 
-$sql= "INSERT INTO `termekek`(`tnev`, `tleiras`, `tar`) VALUES ('$tnev','$tar','$tleiras')";
+$sql= "INSERT INTO `termekek`(`tnev`, `tar`,`tleiras`) VALUES ('$tnev','$tar','$tleiras')";
 if ($conn->query($sql) === TRUE) {
     echo "Sikeres feltöltés";
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
-header("Location:../termekek.php");
+header("Location:termekek.php");
 ?>
