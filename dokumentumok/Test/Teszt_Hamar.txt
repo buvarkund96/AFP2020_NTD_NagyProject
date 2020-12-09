@@ -1,0 +1,20 @@
+Teszt jegyzőkönyv.
+
+Tesztelt böngészők: Opera, Opőera GxX, Google Chrome
+Operációs rendszer: Windows 10
+
+Kapcsolat:
+	-Az oldal betöltésekor az adatbázis és a weboldal között sikeres létrejönn a kapcsolat.
+
+Regisztráció:
+	-Email cím, Felhasználónév, jelszó beírása esettén sikeres regisztráció
+	-Lakcím mező üresen hagyása esetén szintén sikeres regisztráció
+	-A regisztráció után, az adatok sikeresen mentésre kerülnek az adatbázisban
+	
+Bejelentkezés:
+	-Helyes felhasználónév és jelszó után sikeres bejelentkezés és továbbít az oldal az index oldalra
+	-Hibás felhasználónév vagy jelszó esetén, az oldal visszadob a bejelentkezéshez
+	
+Fejléc:
+	-A fejlécen kiválaszott linkekre kattintva sikeres továbbít az adott oldalra
+	-Az oldal nevére kattinva sikeresen átirányít az főoldalra
