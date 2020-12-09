@@ -1,0 +1,36 @@
+Teszt jegyzőkönyv.
+
+Tesztelt böngészők: Opera, Google Chrome, Microsoft Edge
+Operációs rendszer: Windows 10
+
+Index oldal - Látogató:
+	- A főoldalon a termékek megjelennek.
+	- A termékek ára nem jelenik meg.
+
+Index oldal - Felhasználó:
+	- A főoldalon a termékek megjelennek.
+	- A termékek ára megjelenik. 
+
+Index oldal - Admin:
+	- A főoldalon a termékek megjelennek.
+	- A termékek ára megjelenik. 
+
+Termék Lap - Vendég:
+	- A termék lapon a termékek megjelennek.
+	- A termékek ára nem jelenik meg. 
+
+Termék Lap - Felhasználó:
+	- A termék lapon a termékek megjelennek.
+	- A termékek ára megjelenik. 
+
+Termék Lap - Admin:
+	- A termék lapon a termékek megjelennek.
+	- A termékek ára megjelenik. 
+
+Profil - Felhasználó:
+	- A profil adatok megjelennek és szerkeszthetőek.
+	- A korábbi megrendelések megjelennek.
+
+Profil - Admin:
+	- A profil adatok megjelennek és szerkeszthetőek.
+	- A korábbi megrendelések megjelennek.
